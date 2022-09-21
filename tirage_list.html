@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tirage_list.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Take a Guess</h2>
+    </header>
+
+        <input type="text" name="text" id="inputText" required>
+        <button onclick="pushData();" >
+            add
+        </button>
+    <p id="pText"></p>
+    <h2>Random</h2>
+    <button onclick="randomData();" >
+        Guess
+    </button>
+    <p id="randName"></p>
+    <h2>Sujet List</h2>
+    <div class="sujetContainer">
+        <div>
+            <h4>les noms</h4>
+            <p id="sujetList"></p>
+        </div>
+
+        <div>
+            <h4>les sujets</h4>
+            <p id="sujet"></p>
+        </div>
+    </div>
+
+
+    <script src="tirage.js" type="text/javascript"></script>
+
+</body>
+</html>
