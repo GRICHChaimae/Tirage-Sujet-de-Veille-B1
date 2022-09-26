@@ -1,0 +1,31 @@
+{
+  "students": [],
+  "selectednames": [
+    {
+      "slectedStudent": "1",
+      "id": 1
+    },
+    {
+      "slectedStudent": "2",
+      "id": 2
+    },
+    {
+      "slectedStudent": "3",
+      "id": 3
+    }
+  ],
+  "selectedSujets": [
+    {
+      "arrAddSujet": "React",
+      "id": 1
+    },
+    {
+      "arrAddSujet": "React Native",
+      "id": 2
+    },
+    {
+      "arrAddSujet": "NodeJs",
+      "id": 3
+    }
+  ]
+}
